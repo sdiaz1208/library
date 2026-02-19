@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="library" xmi:id="_tMGcYA14EfG9_MFrpMGMKQ">
+  <writers xmi:id="_2DyOwA14EfG9_MFrpMGMKQ" name="Homer" books="_-maXIA14EfG9_MFrpMGMKQ _DCjyUA15EfG9_MFrpMGMKQ"/>
+  <writers xmi:id="_4FOiEA14EfG9_MFrpMGMKQ" name="Plato" books="_R7QE4A15EfG9_MFrpMGMKQ _Uj0poA15EfG9_MFrpMGMKQ _W75UQA15EfG9_MFrpMGMKQ"/>
+  <writers xmi:id="_9rHzkA14EfG9_MFrpMGMKQ" name="Euclid" books="_XKd7wA15EfG9_MFrpMGMKQ _XW51QA15EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_-maXIA14EfG9_MFrpMGMKQ" title="Iliad" pages="350" category="Biography" writer="_2DyOwA14EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_DCjyUA15EfG9_MFrpMGMKQ" title="Odyssey" pages="450" category="Biography" writer="_2DyOwA14EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_R7QE4A15EfG9_MFrpMGMKQ" title="Republic" pages="200" writer="_4FOiEA14EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_Uj0poA15EfG9_MFrpMGMKQ" title="Symposium" pages="500" writer="_4FOiEA14EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_W75UQA15EfG9_MFrpMGMKQ" title="Phaedo" writer="_4FOiEA14EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_XKd7wA15EfG9_MFrpMGMKQ" title="Elements" pages="200" category="ScienceFiction" writer="_9rHzkA14EfG9_MFrpMGMKQ"/>
+  <books xmi:id="_XW51QA15EfG9_MFrpMGMKQ" title="Optics" pages="350" category="ScienceFiction" writer="_9rHzkA14EfG9_MFrpMGMKQ"/>
+</Library>
