@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="library_v2" xmi:id="_vg4yIBCcEfGyVqSMHXtGtg">
+  <writers xmi:id="_0AKZ0BCcEfGyVqSMHXtGtg" full_name="Homer" books="_3Hn6ABCcEfGyVqSMHXtGtg _Sjc9ABCdEfGyVqSMHXtGtg"/>
+  <writers xmi:id="_1HqNYBCcEfGyVqSMHXtGtg" full_name="Plato" books="_VmHcwBCdEfGyVqSMHXtGtg _fZHn4BCdEfGyVqSMHXtGtg _kvZJABCdEfGyVqSMHXtGtg"/>
+  <writers xmi:id="_17hTQBCcEfGyVqSMHXtGtg" full_name="Euclid" books="_moG-IBCdEfGyVqSMHXtGtg _nh6T8BCdEfGyVqSMHXtGtg"/>
+  <books xmi:id="_3Hn6ABCcEfGyVqSMHXtGtg" title="Iliad" pages="500" category="Fantasy" writer="_0AKZ0BCcEfGyVqSMHXtGtg"/>
+  <books xmi:id="_Sjc9ABCdEfGyVqSMHXtGtg" title="Odyssey" pages="450" category="Fantasy" writer="_0AKZ0BCcEfGyVqSMHXtGtg"/>
+  <books xmi:id="_VmHcwBCdEfGyVqSMHXtGtg" title="Republic" pages="370" category="Law" writer="_1HqNYBCcEfGyVqSMHXtGtg"/>
+  <books xmi:id="_fZHn4BCdEfGyVqSMHXtGtg" title="Symposium" pages="400" category="Metaphysics" writer="_1HqNYBCcEfGyVqSMHXtGtg"/>
+  <books xmi:id="_kvZJABCdEfGyVqSMHXtGtg" title="Phaedo" category="Metaphysics" writer="_1HqNYBCcEfGyVqSMHXtGtg"/>
+  <books xmi:id="_moG-IBCdEfGyVqSMHXtGtg" title="Elements" pages="200" category="Metaphysics" writer="_17hTQBCcEfGyVqSMHXtGtg"/>
+  <books xmi:id="_nh6T8BCdEfGyVqSMHXtGtg" title="Optics" pages="350" category="Metaphysics" writer="_17hTQBCcEfGyVqSMHXtGtg"/>
+</Library>
