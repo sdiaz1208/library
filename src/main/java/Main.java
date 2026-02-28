@@ -16,6 +16,9 @@ import org.eclipse.epsilon.modiff.output.MatcherBasedLabelProvider;
 import org.eclipse.epsilon.modiff.output.graphical.PlantumlFormatter;
 import org.eclipse.epsilon.modiff.output.textual.UnifiedDiffFormatter;
 
+import es.unican.sdiaz.plantumlencoder.DeflatePlantUMLEncoder;
+import es.unican.sdiaz.plantumlencoder.PlantUMLEncoder;
+
 public class Main {
 	public static void main(String[] args) throws IOException {
         // Register the default resource factory for .ecore and .model files
@@ -39,6 +42,7 @@ public class Main {
         System.out.println("Loaded metamodel: " + ePackage.getName());
         System.out.println();
 
+        // Load the EPackage into the local registry
 		for (EObject o : resource.getContents()) {
 			ePackage = (EPackage) o;
 			EPackage.Registry.INSTANCE.put(ePackage.getNsURI(), ePackage);
@@ -60,5 +64,10 @@ public class Main {
 		System.out.println(new UnifiedDiffFormatter(modiff.getMunidiff(), labelProvider).format());
 		System.out.println("**************************************************");
 		System.out.println(new PlantumlFormatter(modiff.getMunidiff(), labelProvider).format());
+
+		// Generate a /plantuml/svg URL for the visual representation of the difference
+		PlantUMLEncoder plantumlEncoder = new DeflatePlantUMLEncoder();
+		System.out.println("**************************************************");
+		System.out.println(plantumlEncoder.generateURL(new PlantumlFormatter(modiff.getMunidiff(), labelProvider).format()));
 	}
 }

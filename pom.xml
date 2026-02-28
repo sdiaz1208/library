@@ -16,6 +16,12 @@
   	  		<artifactId>org.eclipse.epsilon.modiff</artifactId>
   	  		<version>0.0.1-SNAPSHOT</version>
   		</dependency>
+  		
+  		<dependency>
+  			<groupId>es.unican.sdiaz</groupId>
+  			<artifactId>plantuml-encoder</artifactId>
+			<version>1.0-SNAPSHOT</version>
+  		</dependency>
   	</dependencies>
 
 </project>
