@@ -37,6 +37,17 @@ jobs:
             -Dpackaging=jar
         working-directory: rama
 
+      - name: Install Modiff libs locally
+        run: |
+          mvn install:install-file \
+            -Dfile=libs/org.eclipse.epsilon.modiff-0.0.1-SNAPSHOT.jar \
+            -DpomFile=libs/org.eclipse.epsilon.modiff-0.0.1-SNAPSHOT.pom.xml
+
+          mvn install:install-file \
+            -Dfile=libs/org.eclipse.epsilon.modiff.emfcompare-0.0.1-SNAPSHOT.jar \
+            -DpomFile=libs/org.eclipse.epsilon.modiff.emfcompare-0.0.1-SNAPSHOT.pom.xml
+        working-directory: rama
+
       - name: Build RAMA
         run: mvn clean package
         working-directory: rama
