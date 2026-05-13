@@ -7,13 +7,16 @@ class Library {
 }
 
 class Writer {
+   id attr String ID;
    attr String name;
    ref Book[*] books;
 }
 
 class Book {
+   id attr String ID;
    attr String title;
    attr int pages = 100;
+   attr int yearOfPublication;
    attr BookCategory category;
 }
 
