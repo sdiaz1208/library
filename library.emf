@@ -16,7 +16,6 @@ class Book {
    id attr String ID;
    attr String title;
    attr int pages = 100;
-   attr int yearOfPublication;
    attr BookCategory category;
 }
 
