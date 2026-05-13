@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<Library xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="library" xmi:id="_GrKCME7LEfGkAdo2vBNb6g">
+  <writers xmi:id="_HYsdoE7LEfGkAdo2vBNb6g" name="Herodotus"/>
+  <books xmi:id="_Iq-k4E7LEfGkAdo2vBNb6g" title="Histories" pages="300" category="Geography"/>
+</Library>
